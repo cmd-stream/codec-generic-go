@@ -1,6 +1,6 @@
 module github.com/cmd-stream/codec-generic-go
 
-go 1.24.1
+go 1.23.0
 
 require (
 	github.com/cmd-stream/transport-go v0.0.0-20251027205650-194496708c59
