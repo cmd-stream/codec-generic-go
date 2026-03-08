@@ -1,5 +1,5 @@
 // Package codec provides a generic, type-safe codec abstraction used for
-// encoding and decoding values in the cmd-stream-go ecosystem.
+// encoding and decoding values in the cmd-stream ecosystem.
 package codec
 
 import (

@@ -37,7 +37,7 @@ func (m Serializer[T, V]) Marshal(t T) (bs []byte, err error) {
 }
 
 func (m Serializer[T, V]) Unmarshal(bs []byte, v V) (err error) {
-	result, err := m.Call("Unmarshal", bs, mok.SafeVal[V](v))
+	result, err := m.Call("Unmarshal", bs, v)
 	if err != nil {
 		panic(err)
 	}
